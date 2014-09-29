@@ -56,8 +56,12 @@
       "js": ["shared.js","keysocket-gmusic.js"]
     },
     {
+      "matches": ["https://play-music.sandbox.google.com/music/*"],
+      "js": ["shared.js","keysocket-gmusic.js"]
+    },
+    {
       "matches": ["https://www.amazon.com/gp/dmusic/mp3/player*"],
       "js": ["shared.js","keysocket-amazon-cloud-player.js"]
-    },
+    }
       ]
 }

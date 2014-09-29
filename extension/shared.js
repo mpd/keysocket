@@ -10,6 +10,7 @@ function simulateClick(element) {
         return false;
     } 
 
+    console.log('clicking');
     var click = document.createEvent('MouseEvents');
     click.initMouseEvent('click', true, false,  document, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
     return element.dispatchEvent(click);
